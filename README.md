@@ -1,5 +1,5 @@
-# ruijie
-powershell自动连接校园网，比python总要方便点吧
+# 锐捷自动连接
+用powershell自动连接校园网，比python总要方便点吧，不然要下什么rq库
 
 ## 设置
 在auto_connect里设置好以下三项：
