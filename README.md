@@ -1,5 +1,5 @@
 # ruijie
-pwsh自动连接校园网，比python总要方便点吧
+powershell自动连接校园网，比python总要方便点吧
 
 ## 设置
 在auto_connect里设置好以下三项：
@@ -15,3 +15,6 @@ service
 
 把auto_connect的快捷方式放进去，设置好ps1的默认打开方式为 `powershell`
 ![image](https://user-images.githubusercontent.com/45586871/135025346-e4be4e15-9389-4286-a6d4-c2958466c738.png)
+
+## 错误信息
+遇到所有错误会写到`err.log`里面，所有的操作会写在`log`里，成功连网后，就会删除这两个文件
